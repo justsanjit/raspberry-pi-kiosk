@@ -1,3 +1,23 @@
+# Install
+I found it easier to install the raspbain with Etcher as compare to noobs. First get the ethcer from https:/etcher.com and get the latest release of raspbian os https://downloads.raspberrypi.org/raspbian_latest
+
+# HDMI Setup
+Pi outputs realtively week signals. Some HDMI devices may not recognize the PI. To make sure it works for every HDMI device, Open the config.txt file from boot.
+
+Add the following configurations
+```
+# To make sure pi belives monitor is there
+hdmi_force_hotplug=1
+
+# Signal boost
+config_hdmi_boost=4
+
+```
+
+Install the micro SD into the pi and boot it up.
+
+
+
 # Raspberry pi kiosk using chromium
 
 ### How to setup
