@@ -16,7 +16,28 @@ config_hdmi_boost=4
 
 Install the micro SD into the pi and boot it up.
 
+# Setting up kiosk
+```
+sudo apt-get clean
+sudo apt-get autoremove -y
+sudo apt-get update
+sudo apt-get upgrade
 
+# Install required packages
+sudo apt-get install xdotool unclutter sed
+
+```
+
+# Setup auto login
+
+
+
+
+# Enable SSH
+
+
+# Assign static private IP address
+It make it easy to connect to raspberry pi via ssh when pi have static private IP address. Use
 
 # Raspberry pi kiosk using chromium
 
