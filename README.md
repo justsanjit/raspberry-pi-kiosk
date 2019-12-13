@@ -50,3 +50,9 @@ It make it easy to connect to raspberry pi via ssh when pi have static private I
 5. Replace `/home/pi/kiosk.sh` in kiosk.service with to the path to your kiosk.sh file
 6. Enable the service by typing `sudo systemctl enable kiosk.service` in terminal
 7. Either restart the computer or start the service manually using `sudo systemctl start kiosk.service` command from the terminal
+
+
+# Setup wifi through terminal
+```
+sudo iwlist wlan0 scan
+```
